@@ -57,7 +57,7 @@ onMounted(() => {
 
 <section class="bg-white dark:bg-gray-300">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
-    <div id="aboutus">
+    <div id="aboutus"></div>
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">O nas</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. <br> <br> <br>
         · Świadczymy usługi dla firm, instytucji i klientów prywatnych <br>
@@ -67,7 +67,6 @@ onMounted(() => {
       </p>
       <div class="mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
       </div>
-  </div>
 </div>
 </section>
 
@@ -75,7 +74,7 @@ onMounted(() => {
 <section class="bg-gray-50 dark:bg-gray-400">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
-        <div id="offer">
+        <div id="offer"></div>
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Oferta</h2>
           <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
       </div>
@@ -118,7 +117,6 @@ onMounted(() => {
 
       </div>
   </div>
-</div>
 </section>
 
 
@@ -126,14 +124,13 @@ onMounted(() => {
 
 <section class="bg-white dark:bg-gray-300">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
-    <div id="adres">
+    <div id="adres"></div> 
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Adres</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">
         Rynek 17 lokal 4 <br>
         05-140 Serock <br>
         <a href="https://goo.gl/maps/uKfGGE2mrXhKQsHq7">WYZNACZ TRASĘ</a>
       </p>
-    </div> 
   </div>
 
 </section>
