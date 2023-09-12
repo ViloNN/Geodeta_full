@@ -23,16 +23,16 @@ onMounted(() => {
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Strona główna</a>
+          <a href="#aboutus" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">O nas</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Oferta</a>
+          <a href="#offer" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Oferta</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Adres</a>
+          <a href="#adres" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Adres</a>
         </li>
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kontakt</a>
+          <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Kontakt</a>
         </li>
       </ul>
     </div>
@@ -57,6 +57,7 @@ onMounted(() => {
 
 <section class="bg-white dark:bg-gray-300">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
+    <div id="aboutus">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">O nas</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. <br> <br> <br>
         · Świadczymy usługi dla firm, instytucji i klientów prywatnych <br>
@@ -67,12 +68,14 @@ onMounted(() => {
       <div class="mt-8 lg:mt-12 space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
       </div>
   </div>
+</div>
 </section>
 
 
 <section class="bg-gray-50 dark:bg-gray-400">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
+        <div id="offer">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Oferta</h2>
           <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
       </div>
@@ -115,6 +118,7 @@ onMounted(() => {
 
       </div>
   </div>
+</div>
 </section>
 
 
@@ -122,13 +126,16 @@ onMounted(() => {
 
 <section class="bg-white dark:bg-gray-300">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
+    <div id="adres">
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Adres</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">
         Rynek 17 lokal 4 <br>
         05-140 Serock <br>
         <a href="https://goo.gl/maps/uKfGGE2mrXhKQsHq7">WYZNACZ TRASĘ</a>
-      </p>   
+      </p>
+    </div> 
   </div>
+
 </section>
 
 <section class="bg-white dark:bg-gray-900">
@@ -136,6 +143,7 @@ onMounted(() => {
       <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
           <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 lg:border-r dark:bg-gray-800 dark:border-gray-700">
               <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
+                <div id="contact"></div>
                   <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Konakt</h3>
                   <p class="my-4">
                     Geodeta Eryk Brodowski <br>
@@ -155,6 +163,7 @@ onMounted(() => {
                   </p> 
               </blockquote>   
           </figure>
+        
       </div>
       </div>
 </section>
