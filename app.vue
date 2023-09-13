@@ -23,7 +23,7 @@ onMounted(() => {
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
         <li>
-          <a href="#aboutus" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">O nas</a>
+          <a href="#aboutus" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">O nas</a>
         </li>
         <li>
           <a href="#offer" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Oferta</a>
@@ -41,10 +41,10 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-gray-400">
+<section class="bg-white bg-white">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-900">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">GEODETA UPRAWNIONY inż Eryk Brodowski</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY inż Eryk Brodowski</h2>
             <p class="mb-4">Geodeta uprawniony Eryk Brodowski posiada wieloletnie doświadczenie w branży geodezyjnej, każdego klienta obsługuje indywidualnie i rzetelnie.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
@@ -55,10 +55,10 @@ onMounted(() => {
 </section>
 
 
-<section class="bg-white dark:bg-gray-300">
+<section class="bg-white dark:bg-blue-100">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="aboutus"></div>
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">O nas</h2>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">O nas</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. <br> <br> <br>
         · Świadczymy usługi dla firm, instytucji i klientów prywatnych <br>
         · Zapewniamy doradztwo, miłą i fachową obsługę oraz korzystne ceny <br> 
@@ -71,11 +71,11 @@ onMounted(() => {
 </section>
 
 
-<section class="bg-gray-50 dark:bg-gray-400">
+<section class="bg-gray-50 dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
         <div id="offer"></div>
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Oferta</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">Oferta</h2>
           <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0">
@@ -122,10 +122,10 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-gray-300">
+<section class="bg-white dark:bg-blue-100">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="adres"></div> 
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Adres</h2>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">Adres</h2>
       <p class="text-gray-500 sm:text-xl dark:text-gray-900">
         Rynek 17 lokal 4 <br>
         05-140 Serock <br>
@@ -135,7 +135,7 @@ onMounted(() => {
 
 </section>
 
-<section class="bg-white dark:bg-gray-400">
+<section class="bg-white dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
           <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 lg:border-r dark:bg-gray-800 dark:border-gray-700">
@@ -177,3 +177,12 @@ onMounted(() => {
 
 
 </template>
+
+<style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+</style>
