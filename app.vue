@@ -41,10 +41,10 @@ onMounted(() => {
 
 
 
-<section class="bg-white bg-gray-300">
+<section class="bg-white dark:bg-gray-400">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-900">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray-900">GEODETA UPRAWNIONY inż Eryk Brodowski</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">GEODETA UPRAWNIONY inż Eryk Brodowski</h2>
             <p class="mb-4">Geodeta uprawniony Eryk Brodowski posiada wieloletnie doświadczenie w branży geodezyjnej, każdego klienta obsługuje indywidualnie i rzetelnie.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
@@ -79,35 +79,35 @@ onMounted(() => {
           <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0">
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-700">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                   <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./inw.png">
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
               <p class="font-light text-gray-500 dark:text-gray-400">Wszystkich map potrzebnych przy inwestycjach</p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-700">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./komp.png">
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
               <p class="font-light text-gray-500 dark:text-gray-400">Podziału działek</p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-700">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./plan.png">                 
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
               <p class="font-light text-gray-500 dark:text-gray-400">Podpowiemy przy zakupie i sprzedaży nieruchomości</p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-700">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./prz.png">
               </div>
               <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
               <p class="font-light text-gray-500 dark:text-gray-400">Projektowaniu przyłączy i budynków</p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-700">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./stojak.png">
               </div>
@@ -135,7 +135,7 @@ onMounted(() => {
 
 </section>
 
-<section class="bg-white dark:bg-gray-900">
+<section class="bg-white dark:bg-gray-400">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
           <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 lg:border-r dark:bg-gray-800 dark:border-gray-700">
@@ -160,7 +160,6 @@ onMounted(() => {
                   </p> 
               </blockquote>   
           </figure>
-        
       </div>
       </div>
 </section>
@@ -170,7 +169,7 @@ onMounted(() => {
 
 <footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
   <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
-      &copy; 2023<a href="https://dreampire.pl/" class="hover:underline" target="_blank">Dreampire.pl</a>. All rights reserved.
+      &copy; 2023 <a href="https://dreampire.pl/" class="hover:underline" target="_blank">Dreampire.pl</a>. All rights reserved.
   </p>
   <div class="flex justify-center items-center space-x-1">
 </div>
