@@ -83,36 +83,36 @@ onMounted(() => {
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                   <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./inw.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Marketing</h3>
-              <p class="font-light text-gray-500 dark:text-gray-400">Wszystkich map potrzebnych przy inwestycjach</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Wszystkich map potrzebnych przy inwestycjach</h3>
+              <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./komp.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Legal</h3>
-              <p class="font-light text-gray-500 dark:text-gray-400">Podziału działek</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podziału działek</h3>
+              <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./plan.png">                 
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Business Automation</h3>
-              <p class="font-light text-gray-500 dark:text-gray-400">Podpowiemy przy zakupie i sprzedaży nieruchomości</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podpowiemy przy zakupie i sprzedaży nieruchomości</h3>
+              <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./prz.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-              <p class="font-light text-gray-500 dark:text-gray-400">Projektowaniu przyłączy i budynków</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Projektowaniu przyłączy i budynków</h3>
+              <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./stojak.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Enterprise Design</h3>
-              <p class="font-light text-gray-500 dark:text-gray-400">Obsługi inwestycji</p>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Obsługi inwestycji</h3>
+              <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
 
       </div>
