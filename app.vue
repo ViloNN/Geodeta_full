@@ -9,7 +9,7 @@ onMounted(() => {
 <template>
 
 
-<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class="border-gray-200 bg-gray-50 dark:bg-black dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center">
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Geodeta</span>
@@ -44,7 +44,7 @@ onMounted(() => {
 <section class="bg-white bg-white">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-900">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY inż Eryk Brodowski</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY inż. Eryk Brodowski</h2>
             <p class="mb-4">Geodeta uprawniony Eryk Brodowski posiada wieloletnie doświadczenie w branży geodezyjnej, każdego klienta obsługuje indywidualnie i rzetelnie.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
@@ -55,11 +55,11 @@ onMounted(() => {
 </section>
 
 
-<section class="bg-white dark:bg-blue-100">
+<section class="bg-white dark:bg-orange-400">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="aboutus"></div>
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">O nas</h2>
-      <p class="text-gray-500 sm:text-xl dark:text-gray-900">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. <br> <br> <br>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">O nas</h2>
+      <p class="text-gray-500 sm:text-xl dark:text-white">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. <br> Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. <br> <br> <br>
         · Świadczymy usługi dla firm, instytucji i klientów prywatnych <br>
         · Zapewniamy doradztwo, miłą i fachową obsługę oraz korzystne ceny <br> 
         · Jesteśmy dyspozycyjni i możemy dostosować się do klienta <br>
@@ -78,36 +78,36 @@ onMounted(() => {
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">Oferta</h2>
           <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
       </div>
-      <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0">
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
+      <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:gap-2 xl:gap-2 md:space-y-0">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-400">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                   <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./inw.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Wszystkich map potrzebnych przy inwestycjach</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Wszystkich map potrzebnych przy inwestycjach. Świadczymy usługi dla firm, instytucji i klientów prywatnych</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-400">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./komp.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Podziału działek</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podziału działek. Zapewniamy doradztwo, miłą i fachową obsługę oraz korzystne ceny</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-400">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./plan.png">                 
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Podpowiemy przy zakupie i sprzedaży nieruchomości</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podpowiemy przy zakupie i sprzedaży nieruchomości. Jesteśmy dyspozycyjni i możemy dostosować się do klienta</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-400">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./prz.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Projektowaniu przyłączy i budynków</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Projektowaniu przyłączy i budynków. Podpowiemy w wyborze lokalnych wykonawców</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
-          <div class="p-6 bg-white rounded-2xl shadow dark:bg-gray-800">
+          <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-400">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./stojak.png">
               </div>
@@ -122,11 +122,11 @@ onMounted(() => {
 
 
 
-<section class="bg-white dark:bg-blue-100">
+<section class="bg-white dark:bg-orange-400">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="adres"></div> 
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">Adres</h2>
-      <p class="text-gray-500 sm:text-xl dark:text-gray-900">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Adres</h2>
+      <p class="text-gray-500 sm:text-xl dark:text-white">
         Rynek 17 lokal 4 <br>
         05-140 Serock <br>
         <a href="https://goo.gl/maps/uKfGGE2mrXhKQsHq7">WYZNACZ TRASĘ</a>
@@ -138,10 +138,10 @@ onMounted(() => {
 <section class="bg-white dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-          <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
+          <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 lg:border-r dark:bg-orange-400 dark:border-white">
+              <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-black">
                 <div id="contact"></div>
-                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Konakt</h3>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-black">Konakt</h3>
                   <p class="my-4">
                     Geodeta Eryk Brodowski <br>
                     NIP: 5681544978 <br>
@@ -150,9 +150,9 @@ onMounted(() => {
                     </p>
               </blockquote>   
           </figure>
-          <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
-                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Godziny otwarcia</h3>
+          <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-6 dark:bg-orange-400 dark:border-white-700">
+              <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-black">
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-black">Godziny otwarcia</h3>
                   <p class="my-4">
                     poniedziałek - piątek: 7:00- 16:00 <br>
                     sobota - po wcześniejszym uzgodnieniu telefonicznym <br>
@@ -167,7 +167,7 @@ onMounted(() => {
 
 
 
-<footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800 antialiased">
+<footer class="bg-white shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-black antialiased">
   <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
       &copy;2023 <a href="https://dreampire.pl/" class="hover:underline" target="_blank">Dreampire.pl</a>. All rights reserved.
   </p>
