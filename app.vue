@@ -39,7 +39,7 @@ onMounted(() => {
   </div>
 </nav>
 
-<section class="bg-white bg-gray-100">
+<section class="bg-gray-100 bg-gray-100">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-900">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY inż. Eryk Brodowski</h2>
