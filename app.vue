@@ -94,7 +94,7 @@ onMounted(() => {
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
         <div id="offer"></div>
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-black">Oferta</h2>
-          <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie</p>
+          <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie:</p>
       </div> 
 
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:gap-2 xl:gap-2 md:space-y-0">
