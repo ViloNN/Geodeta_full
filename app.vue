@@ -42,7 +42,7 @@ onMounted(() => {
 <section class="bg-white dark:bg-gray-100">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-900">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY inż. Eryk Brodowski</h2>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-grey">GEODETA UPRAWNIONY <br> inż. Eryk Brodowski</h2>
             <p class="mb-4">Geodeta uprawniony Eryk Brodowski posiada wieloletnie doświadczenie w branży geodezyjnej, każdego klienta obsługuje indywidualnie i rzetelnie.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
@@ -56,7 +56,7 @@ onMounted(() => {
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="aboutus"></div>
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">O nas</h2>
-      <p class="text-gray-500 sm:text-xl dark:text-black">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. <br> Wieloletnie doświadczenie przekłada się na wysoką jakość usług.. </p> <br> <br> <br>
+      <p class="text-gray-500 sm:text-xl dark:text-black">Świadczymy profesjonalne usługi geodezyjne od 1993 r. Działamy w powiatach legionowskim i pułtuskim. <br> Wieloletnie doświadczenie przekłada się na wysoką jakość usług.</p> <br> <br> <br>
 
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-2 xl:gap-2 md:space-y-0">
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-600">
@@ -94,7 +94,7 @@ onMounted(() => {
       <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
         <div id="offer"></div>
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-black dark:text-black">Oferta</h2>
-          <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie :</p>
+          <p class="font-light text-gray-500 dark:text-gray-900 sm:text-xl">Świadczymy profesjonalne oraz kompleksowe usługi w zakresie</p>
       </div> 
 
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:gap-2 xl:gap-2 md:space-y-0">
@@ -102,28 +102,28 @@ onMounted(() => {
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                   <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./inw.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Wszystkich map potrzebnych przy inwestycjach. </h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Wszystkich map potrzebnych przy inwestycjach</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-600">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./komp.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Podziału działek.</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podziału działek</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-600">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./plan.png">                 
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Podpowiemy przy zakupie i sprzedaży nieruchomości.</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Podpowiemy przy zakupie i sprzedaży nieruchomości</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-600">
               <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-20 lg:w-20 dark:bg-primary-900">
                 <img class="w-500 h-500 text-primary-600 lg:w-300 lg:h-300 dark:text-primary-300" src="./prz.png">
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Projektowaniu przyłączy i budynków.</h3>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Projektowaniu przyłączy i budynków</h3>
               <p class="font-light text-gray-500 dark:text-gray-400"></p>
           </div>
           <div class="p-6 bg-white rounded-2xl shadow dark:bg-orange-600">
