@@ -52,7 +52,7 @@ onMounted(() => {
     </div>
 </section>
 
-<section class="bg-white dark:bg-gray-100">
+<section class="bg-white dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="aboutus"></div>
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">O nas</h2>
@@ -141,7 +141,7 @@ onMounted(() => {
 <!-- </div> -->
 </section>
 
-<section class="bg-white dark:bg-gray-100">
+<section class="bg-white dark:bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center sm:py-16 lg:px-6">
     <div id="adres"></div> 
       <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 text-black">Adres</h2>
